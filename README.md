@@ -4,8 +4,10 @@ Hierarchical Deterministic (HD) Ed25519 derivation using pynacl
 
 ## Requirements
 
-    python>=3.6
-    pynacl>=1.4.0 # For https://github.com/pyca/pynacl/commit/0e2ae90ac8bdc8f3cddf04d58a71da68678e6816
+```
+python>=3.6
+pynacl>=1.4.0 # For https://github.com/pyca/pynacl/commit/0e2ae90ac8bdc8f3cddf04d58a71da68678e6816
+```
 
 ## Usage
 
