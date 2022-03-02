@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="HDEd25519",
-    version="0.0.1",
+    version="0.0.2",
     author="Ledger",
     author_email="hello@ledger.com",
     description="HDEd25519 derivation used by Ledger products",
@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/LedgerHQ/HDEd25519",
     packages=setuptools.find_packages(where=".", exclude=["tests", "tests.*"]),
-    package_data={"HDEd25519": ["py.typed"]},
+    package_data={"HDEd25519_nacl": ["py.typed"]},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
